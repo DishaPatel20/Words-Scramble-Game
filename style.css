@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	width: 100%;
+	line-height: 15vh;
+	background-color: #b1bfd8;
+background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+}
+
+h1 {
+	font-family: 'Asset', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.8rem;
+	letter-spacing: 15px;
+	text-shadow: 0 1px 0 black,
+				 0 2px 0 #efefef,
+				 0 3px 0 black,
+				 0 4px 0 #efefef,
+				 0 30px 5px rgba(0,0,0,.2);
+}
+
+section {
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+
+.gamearea {
+	font-family: 'Abril Fatface', cursive;
+	width: 50%;
+	height: 400px;
+	padding: 20px 0;
+	background-color: #b1bfd8;
+background-image: linear-gradient
+(315deg, #b1bfd8 0%, #6782b4 74%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 8px 10px -2px black; 
+/*vertical-offset horizontal-offser blur spread color*/
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.4rem;
+
+}
+
+input {
+	width: 40%;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 50% 50% 10px 10px;
+	outline: none;
+	border: groove;
+	background-color: #e2d5e6;
+    background-image: linear-gradient
+    (315deg, #e2d5e6 0%, #e1d4e6 74%);
+
+	margin: 2rem 0;
+	font-size: 1.1rem;
+}
+
+button {
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+	border:#2f3542;
+	margin-top: 10px;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+	word-spacing: 8px;
+	letter-spacing: 0.1rem;
+}
+
+button.btn {
+		font-weight: 600;
+		padding: 1rem 2rem;
+		background-color: #485461;
+background-image: linear-gradient
+(315deg, #485461 0%, #28313b 74%);
+		text-transform: uppercase;
+		transition-property: all;
+		transition-duration: 0.5s;
+		transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+
+button.btn:hover, button.btn:focus, button.btn:active {
+
+			letter-spacing: 0.125rem;
+			word-spacing: 0.2rem;
+}
+
+.hidden {
+	display: none;
+}
